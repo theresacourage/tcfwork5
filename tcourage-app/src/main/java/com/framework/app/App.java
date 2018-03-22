@@ -1,4 +1,4 @@
-package com.firstFramework.app;
+package com.framework.app;
 
 /**
  * Hello world!

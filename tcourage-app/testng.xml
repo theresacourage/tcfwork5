@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.firstFramework.app.SeleniumTest"/>
-      <class name="com.firstFramework.app.RestAPITest"/>
+      <class name="com.framework.app.SeleniumTest"/>
+      <class name="com.framework.app.RestAPITest"/>
    </classes> 
   </test> <!-- Test -->
 </suite> <!-- Suite -->

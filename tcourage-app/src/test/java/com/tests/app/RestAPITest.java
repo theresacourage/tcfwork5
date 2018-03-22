@@ -1,4 +1,4 @@
-package com.firstFramework.app;
+package com.tests.app;
 
 import org.testng.annotations.Test;
 
