@@ -5,6 +5,6 @@
     <classes>
       <class name="com.firstFramework.app.SeleniumTest"/>
       <class name="com.firstFramework.app.RestAPITest"/>
-    </classes>
+   </classes> 
   </test> <!-- Test -->
 </suite> <!-- Suite -->
