@@ -1,4 +1,4 @@
-package tests;
+package com.mycompany.app;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +10,7 @@ import objects.LoginPageEBay;
 public class EbayLinks{
 
 	@Test
-	public void AllLinkOnEbayHomepage() 
+	public void CountLinksOnEbayHomepage() 
 	{
 		// Go to ebay in Chrome Browser
 		System.setProperty("web.chrome.driver", "C:\\Program Files\\WebDrivers");

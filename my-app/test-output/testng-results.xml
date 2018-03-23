@@ -2,15 +2,15 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20460" started-at="2018-03-23T21:13:25Z" finished-at="2018-03-23T21:13:45Z">
+  <suite name="Default suite" duration-ms="17511" started-at="2018-03-23T21:25:19Z" finished-at="2018-03-23T21:25:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20460" started-at="2018-03-23T21:13:25Z" finished-at="2018-03-23T21:13:45Z">
+    <test name="Default test" duration-ms="17511" started-at="2018-03-23T21:25:19Z" finished-at="2018-03-23T21:25:37Z">
       <class name="tests.EbayLinks">
-        <test-method status="PASS" signature="AllLinkOnEbayHomepage()[pri:0, instance:tests.EbayLinks@73ad2d6]" name="AllLinkOnEbayHomepage" duration-ms="20386" started-at="2018-03-23T21:13:25Z" finished-at="2018-03-23T21:13:45Z">
+        <test-method status="PASS" signature="CountLinksOnEbayHomepage()[pri:0, instance:tests.EbayLinks@73ad2d6]" name="CountLinksOnEbayHomepage" duration-ms="17453" started-at="2018-03-23T21:25:19Z" finished-at="2018-03-23T21:25:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AllLinkOnEbayHomepage -->
+        </test-method> <!-- CountLinksOnEbayHomepage -->
       </class> <!-- tests.EbayLinks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
