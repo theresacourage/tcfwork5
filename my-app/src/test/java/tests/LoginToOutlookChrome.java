@@ -1,18 +1,16 @@
 package tests;
 
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-
 import objects.LoginPageOutlook;
 
 public class LoginToOutlookChrome {
 
 	@Test 
 	
-	public void OpenOutlookPage()
+	public void OpenOutlookPage() throws InterruptedException
 	{
 		//Go to outlook.live.com login page using Chrome browser
 		System.setProperty("web.chrome.driver", "C:\\Program Files\\WebDrivers");
@@ -23,7 +21,10 @@ public class LoginToOutlookChrome {
 		//Sign in using email and password
 		lp.EmailID().sendKeys("tc_fwork@outlook.com");
 		lp.Next().click();
+		Thread.sleep(2000);
 		lp.Password().sendKeys("Run44runhot");
+		Thread.sleep(2000);	
+		
 		lp.SignIn().click();
 		
 	}

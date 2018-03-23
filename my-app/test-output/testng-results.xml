@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17511" started-at="2018-03-23T21:25:19Z" finished-at="2018-03-23T21:25:37Z">
+  <suite name="Default suite" duration-ms="12810" started-at="2018-03-23T22:05:55Z" finished-at="2018-03-23T22:06:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17511" started-at="2018-03-23T21:25:19Z" finished-at="2018-03-23T21:25:37Z">
-      <class name="tests.EbayLinks">
-        <test-method status="PASS" signature="CountLinksOnEbayHomepage()[pri:0, instance:tests.EbayLinks@73ad2d6]" name="CountLinksOnEbayHomepage" duration-ms="17453" started-at="2018-03-23T21:25:19Z" finished-at="2018-03-23T21:25:37Z">
+    <test name="Default test" duration-ms="12810" started-at="2018-03-23T22:05:55Z" finished-at="2018-03-23T22:06:08Z">
+      <class name="tests.LoginToOutlookChrome">
+        <test-method status="PASS" signature="OpenOutlookPage()[pri:0, instance:tests.LoginToOutlookChrome@73ad2d6]" name="OpenOutlookPage" duration-ms="12758" started-at="2018-03-23T22:05:55Z" finished-at="2018-03-23T22:06:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CountLinksOnEbayHomepage -->
-      </class> <!-- tests.EbayLinks -->
+        </test-method> <!-- OpenOutlookPage -->
+      </class> <!-- tests.LoginToOutlookChrome -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
