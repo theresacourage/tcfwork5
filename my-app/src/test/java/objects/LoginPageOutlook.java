@@ -11,6 +11,8 @@ public class LoginPageOutlook {
 	By next=By.cssSelector("input#idSIButton9.btn.btn-block.btn-primary");
 	By password=By.name("passwd");
 	By signin=By.id("idSIButton9");
+	//By outlooktitle=By.xpath("//*[@id=\"app\"]/div/div[1]/div[1]/a/span");
+	By outlooktitle=By.cssSelector("#app > div > div._3fpgaLm7NwXSzB_ETFcCNj > div.ms-FocusZone._2gjMH0HMa1J6DEB53u022T > a > span");
 	
 	
 	public LoginPageOutlook(WebDriver driver)
@@ -37,6 +39,11 @@ public class LoginPageOutlook {
 		
 		return driver.findElement(signin);
 		
+	}
+	
+	public WebElement getOutlookTitle()
+	{
+		return driver.findElement(outlooktitle);
 	}
 	
 	

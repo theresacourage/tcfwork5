@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12810" started-at="2018-03-23T22:05:55Z" finished-at="2018-03-23T22:06:08Z">
+  <suite name="Default suite" duration-ms="58109" started-at="2018-03-24T17:27:48Z" finished-at="2018-03-24T17:28:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12810" started-at="2018-03-23T22:05:55Z" finished-at="2018-03-23T22:06:08Z">
+    <test name="Default test" duration-ms="58109" started-at="2018-03-24T17:27:48Z" finished-at="2018-03-24T17:28:46Z">
       <class name="tests.LoginToOutlookChrome">
-        <test-method status="PASS" signature="OpenOutlookPage()[pri:0, instance:tests.LoginToOutlookChrome@73ad2d6]" name="OpenOutlookPage" duration-ms="12758" started-at="2018-03-23T22:05:55Z" finished-at="2018-03-23T22:06:08Z">
+        <test-method status="PASS" signature="OpenOutlookPage()[pri:0, instance:tests.LoginToOutlookChrome@73ad2d6]" name="OpenOutlookPage" duration-ms="58030" started-at="2018-03-24T17:27:48Z" finished-at="2018-03-24T17:28:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenOutlookPage -->

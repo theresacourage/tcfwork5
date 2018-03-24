@@ -1,8 +1,10 @@
 package tests;
 
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import objects.LoginPageOutlook;
 
@@ -27,6 +29,14 @@ public class LoginToOutlookChrome {
 		
 		lp.SignIn().click();
 		
+	    //WebElement outlookTitle = driver.findElement(By.xpath("//*[@id="app"]/div/div[1]/div[1]/a/span"));
+		Thread.sleep(3000);
+		LoginPageOutlook outlookPage=new LoginPageOutlook(driver);
+		outlookPage.getOutlookTitle();
+		
+		//Compare title expected with actual title
+		//Assert.assertEquals(outlookPage.getOutlookTitle().getText(), "Outlook");
+				
 	}
 	
 	
