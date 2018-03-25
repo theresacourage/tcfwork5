@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -7,9 +8,9 @@ import org.testng.annotations.Test;
 import objects.LoginPageEBay;
 
 
-public class EbayLinks2{
+public class EbayLinksTest{
 
-	@Test
+	//@Test
 	public void CountLinksOnEbayHomepage() 
 	{
 		// Go to ebay in Chrome Browser
@@ -30,7 +31,7 @@ public class EbayLinks2{
 		
 	}
 	
-	@Test
+	//@Test
 	
 	public void CountLinksInFooterEbayHomepage() 
 	{
@@ -45,7 +46,7 @@ public class EbayLinks2{
 				System.out.println(ebay.FooterSection());
 	}
 	
-@Test
+//@Test
 	
 	public void CountLinksInSecondColumnOfFooter() 
 	{
