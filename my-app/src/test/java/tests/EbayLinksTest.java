@@ -10,7 +10,7 @@ import objects.LoginPageEBay;
 
 public class EbayLinksTest{
 
-	//@Test
+	@Test
 	public void CountLinksOnEbayHomepage() 
 	{
 		// Go to ebay in Chrome Browser
@@ -31,7 +31,7 @@ public class EbayLinksTest{
 		
 	}
 	
-	//@Test
+	@Test
 	
 	public void CountLinksInFooterEbayHomepage() 
 	{
@@ -46,7 +46,7 @@ public class EbayLinksTest{
 				System.out.println(ebay.FooterSection());
 	}
 	
-//@Test
+@Test
 	
 	public void CountLinksInSecondColumnOfFooter() 
 	{

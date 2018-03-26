@@ -11,7 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import objects.LoginPageOutlook;
 
-public class LoginToOutlookChromeTes {
+public class LoginToOutlookChromeTest {
 
 	@Test 	
 	public void OpenOutlookPage() throws InterruptedException
